@@ -1,0 +1,28 @@
+/*utilizando un selector universal para darle a cada model box 
+un ancho definido*/
+*{
+  box-sizing: border-box;  
+}
+
+/*utilizando un selector de etiqueta para definir el margen y 
+la altura, el ancho, la altura del relleno y el relleno izquierdo
+a todos los elementos div*/
+div{
+    height: 100px;
+    margin: 10px;
+    width: 240px;
+    padding-top: 10px;
+    padding-left: 10px; 
+}
+
+/*utilizando un selector de clase para definir el color de fondo*/
+.orange{
+    background:  #ffc107;
+}
+
+/*utilizando un selector de clase para definir el
+color de fondo y el color de las letras*/
+.black{
+    background: black;
+    color: white;
+}
